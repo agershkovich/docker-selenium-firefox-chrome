@@ -1,7 +1,7 @@
-docker-selenium-firefox-chrome-beta
+docker-selenium-firefox-chrome
 ===================================
 
-A Dockerfile starting a selenium standalone server with Chrome and Firefox beta.
+A Dockerfile starting a selenium standalone server with Chrome and Firefox.
 
 It exposes:
 - selenium standalone server running on `localhost:4444`
