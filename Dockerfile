@@ -14,7 +14,7 @@ RUN wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key
 RUN echo "deb http://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google.list
 RUN apt-get update -y
 RUN apt-get install -y -q \
-  firefox \
+  firefox:i386 \
   google-chrome-beta \
   openjdk-8-jre-headless \
   nodejs \
