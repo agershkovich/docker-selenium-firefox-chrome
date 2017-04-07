@@ -10,8 +10,8 @@ It exposes:
 Running:
 
 ```shell
-docker pull vvoyer/docker-selenium-firefox-chrome
-docker run --privileged -p 4444:4444 -p 5999:5999 -d vvoyer/docker-selenium-firefox-chrome
+docker pull agershkovich/docker-selenium-firefox-chrome
+docker run --privileged -p 4444:4444 -p 5999:5999 -d agershkovich/docker-selenium-firefox-chrome
 ```
 
 Also see this awesome image: https://github.com/elgalu/docker-selenium
