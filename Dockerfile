@@ -12,12 +12,12 @@ RUN sudo apt-get install -y nodejs
 
 RUN wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -
 RUN echo "deb http://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google.list
-RUN sudo add-apt-repository ppa:webupd8team/java
+
 RUN apt-get update -y
 RUN apt-get install -y -q \
   firefox \
   google-chrome-beta \
-  oracle-java8-installer \
+  openjdk-8-jre-headless \
   nodejs \
   x11vnc \
   xvfb \
