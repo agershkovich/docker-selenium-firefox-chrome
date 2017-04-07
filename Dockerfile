@@ -16,7 +16,7 @@ RUN apt-get update -y
 RUN apt-get install -y -q \
   firefox \
   google-chrome-beta \
-  openjdk-7-jre-headless \
+  openjdk-8-jre-headless \
   nodejs \
   x11vnc \
   xvfb \
